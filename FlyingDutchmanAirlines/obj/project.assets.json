@@ -5760,26 +5760,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xinhai\\.nuget\\packages\\": {}
+    "/Users/xinhai/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\code like a pro in c sharp\\FlyingDutchmanAirlines\\FlyingDutchmanAirlines.csproj",
+      "projectUniqueName": "/Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines/FlyingDutchmanAirlines.csproj",
       "projectName": "FlyingDutchmanAirlines",
-      "projectPath": "D:\\Programming\\code like a pro in c sharp\\FlyingDutchmanAirlines\\FlyingDutchmanAirlines.csproj",
-      "packagesPath": "C:\\Users\\Xinhai\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\code like a pro in c sharp\\FlyingDutchmanAirlines\\obj\\",
+      "projectPath": "/Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines/FlyingDutchmanAirlines.csproj",
+      "packagesPath": "/Users/xinhai/.nuget/packages/",
+      "outputPath": "/Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Xinhai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/xinhai/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5827,7 +5829,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }
