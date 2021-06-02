@@ -1,4 +1,6 @@
 using System;
+using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using FlyingDutchmanAirlines.DatabaseLayer;
 using FlyingDutchmanAirlines.DatabaseLayer.Models;
@@ -12,7 +14,16 @@ namespace FlyingDutchmanAirlines.RepositoryLayer {
             _context = context;
         }
 
-        public async Task CreateBooking(int customerId, int flightNumber) {
+        [MethodImpl(MethodImplOptions.NoInlining)]
+        public BookingRepository()
+        {
+            if (Assembly.GetExecutingAssembly().FullName == Assembly.GetCallingAssembly().FullName)
+            {
+                throw new Exception("This constructor should only be used for testing");
+            }
+        }
+
+        public virtual async Task CreateBooking(int customerId, int flightNumber) {
             if (!customerId.IsPositive() || !flightNumber.IsPositive()) {
                 Console.WriteLine($"Argument Exception in CreateBooking! CustomerID={customerId}," +
                                   $"flightNumber = {flightNumber}");
@@ -29,7 +40,7 @@ namespace FlyingDutchmanAirlines.RepositoryLayer {
                 await _context.SaveChangesAsync();
             } catch (Exception exception) {
                 Console.WriteLine($"Exception during database query: {exception.Message}");
-                throw new CouldNotAddBookingToDatabaseExceptionException();
+                throw new CouldNotAddBookingToDatabaseException();
             }
         }
     }

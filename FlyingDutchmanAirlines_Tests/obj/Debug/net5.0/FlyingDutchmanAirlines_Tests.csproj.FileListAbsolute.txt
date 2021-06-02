@@ -130,3 +130,5 @@
 /Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines_Tests/obj/Debug/net5.0/FlyingDutchmanAirlines_Tests.pdb
 /Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines_Tests/obj/Debug/net5.0/FlyingDutchmanAirlines_Tests.genruntimeconfig.cache
 /Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines_Tests/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines_Tests/bin/Debug/net5.0/Castle.Core.dll
+/Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines_Tests/bin/Debug/net5.0/Moq.dll

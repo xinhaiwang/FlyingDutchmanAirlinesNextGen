@@ -47,7 +47,7 @@ namespace FlyingDutchmanAirlines_Tests.RepositoryLayer {
         }
 
         [TestMethod]
-        [ExpectedException(typeof(CouldNotAddBookingToDatabaseExceptionException))]
+        [ExpectedException(typeof(CouldNotAddBookingToDatabaseException))]
         public async Task CreateBooking_Failure_DatabaseError() {
             await _repository.CreateBooking(0, 1);
 

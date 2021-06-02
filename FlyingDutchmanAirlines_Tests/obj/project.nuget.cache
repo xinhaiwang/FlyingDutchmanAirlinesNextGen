@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5HnQxp2cIHI+H0R4sdqFePCTE5Jb3MMqQ+NI1yHnkkBbbkWLUasMN+zM13os7oTDuOcp1vXh/iQlGYEGPZXzKQ==",
+  "dgSpecHash": "N44vppj/GgD5YbV2AxoRxqJmtH7P077WfgeU5npFlSaoQ05YCGVNmCANgPfrIjguBQVc1RdMF8JObp5jYCdirQ==",
   "success": true,
   "projectFilePath": "/Users/xinhai/programming/FlyingDutchmanAirlinesNextGen/FlyingDutchmanAirlines_Tests/FlyingDutchmanAirlines_Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/xinhai/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/Users/xinhai/.nuget/packages/coverlet.collector/1.3.0/coverlet.collector.1.3.0.nupkg.sha512",
     "/Users/xinhai/.nuget/packages/microsoft.codecoverage/16.7.1/microsoft.codecoverage.16.7.1.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
@@ -38,6 +39,7 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/xinhai/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/xinhai/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/xinhai/.nuget/packages/moq/4.16.1/moq.4.16.1.nupkg.sha512",
     "/Users/xinhai/.nuget/packages/mstest.testadapter/2.1.1/mstest.testadapter.2.1.1.nupkg.sha512",
     "/Users/xinhai/.nuget/packages/mstest.testframework/2.1.1/mstest.testframework.2.1.1.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
@@ -134,7 +136,7 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.text.regularexpressions/4.3.0/system.text.regularexpressions.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "/Users/xinhai/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/xinhai/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
